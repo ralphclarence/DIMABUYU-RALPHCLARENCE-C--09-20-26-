@@ -77,7 +77,8 @@ int main() {
     cout << "\np && q: " << (p && q) << endl; // AND -> false
     cout << "p || q: " << (p || q)   << endl; // OR -> true
     cout << "!p: "     << (!p)       << endl; // NOT -> false
-    //----- Assignment operation -----
+
+    //----- Assignment operators -----
     int score = 50;
     score += 10; // same as score = score + 10 
     cout << "\nscore after += 10: " << score << endl;
@@ -90,6 +91,32 @@ int main() {
     cout << "counter now: " << counter << endl;   // inncrements THEN prints -> 7
  
     return 0;
+} 
+
+// Control Flow(if/else,switch,loops)
+#include <ioscream>
+using namespace std;
+
+inc main () {
+  //-----if/ elseif/ else-----
+  int score;
+  count<< "enter your exam :"
+  cin>> score ;
+
+  if (score=90){
+      count << "grade:A"<<end1;
+  } else if (score>90{
+        count<<"grade:A<<end1
+  }else if (score>score80){
+    count <<"grade:B"<<end1;
+  }else if(score>=70){
+    count<<grade;c"end1;
+    else{
+      count<<"grade:F"
+  }   
+    
+
 }
+
  
  
